@@ -9,6 +9,7 @@
 \usepackage{graphicx}
 \usepackage{url} % príkaz \url na formátovanie URL
 \usepackage{hyperref} % odkazy v texte budú aktívne (pri niektorých triedach dokumentov spôsobuje posun textu)
+\usepackage{float}
 
 \usepackage{cite}
 %\usepackage{times}
@@ -33,16 +34,16 @@
 
 \begin{abstract}
 
-Nowadays computer games are widely used by various age groups ranging from children to adults. A majority of users prefer the genre of action games\cite{Research:Top}. One of the most popular action games is Dota 2 in accordance with an ongoing analysis of Steam's concurrent players \cite{Steam:Dota}. As a consequence, the main purpose of the article is to describe the phases of Dota 2 development, the main features of the game, and the factors that caused its popularity. The paper consists of several parts such as the development phases of Dota 2, the main features of Dota 2, and the reasons why Dota 2 is still popular
+Nowadays computer games are widely used by various age groups ranging from children to adults. A majority of users prefer the genre of action games. One of the most popular action games is Dota 2 in accordance with an ongoing analysis of Steam's concurrent players. As a consequence, the main purpose of the article is to describe the phases of Dota 2 development, the main features of the game, and the factors that caused its popularity. The paper consists of several parts such as the development phases of Dota 2, the main features of Dota 2, and the reasons why Dota 2 is still popular.
 \end{abstract}
 
 
 
-\section{Introduction}
+\section*{Introduction}
 
 Computer games become indispensable parts of daily lives in recent decades. It is caused by the global digitalization of society and the irreversible penetration of state-of-the-art technologies into the market. As a result, there is a growing demand for products that may capture the attention of possible users. To achieve the above-mentioned goal, game developers introduce fresh and unusual scenarios and heroes in their programs. One of those games is Dota 2. 
 
-Dota 2 is a multiplayer online battle arena game that was created by the American video game developer company Valve Corporation. The product is known for its isometric perspective, 3D graphics and wide range of modes. Moreover, players have the possibility to choose various heroes because there are 120 characters that users can take from before the beginning of a battle.
+Dota 2 is a multiplayer online battle arena game that was created by the American video game developer company Valve Corporation. The product is known for its isometric perspective, 3D graphics and wide range of modes. Moreover, players have the possibility to choose various heroes because there are 123 characters that users can take from before the beginning of a battle.
 
 The article covers the phases of Dota 2 development in the section~\ref{The development phases of Dota 2}. Furthermore, the main characteristics of the game and factors that have an impact on Dota 2 popularity are described in~\ref{The main features of Dota 2} and~\ref{the reasons why Dota 2 is still popular}. The concluding remarks are provided in the part~\ref{conclusion}.
 
@@ -80,7 +81,13 @@ In Dota 2, there are also “neutral creeps” which are outside of the lanes an
 
 \subsection{Main modes} \label{main modes}
 
-There are several main modes in Dota 2 such as captains mode, random draft, turbo, least played, limited heroes, 1v1 solo mid, all random deathmatch, ability draft and single draft\cite{ Modes:Nathan}.  
+There are several main modes in Dota 2 such as captains mode, random draft, turbo, least played, limited heroes, 1v1 solo mid, all random deathmatch, ability draft and single draft.
+\begin{figure}
+  \centering
+  \caption{Main modes of Dota 2\cite{ Modes:Nathan}}
+  \includegraphics[width=1.0\textwidth]{modes123094.pdf}
+  \label{fig:modes}
+\end{figure}  
 
 Captains mode is used mainly for tournament games. The captains are able to ban heroes, up to seven per team, for the opponent. After the captains’ selection, each team member picks up a character. Also, a captain has 130 bonus seconds. 
 
@@ -102,22 +109,23 @@ In single draft mode, a user picks up three random heroes from a pool.
 
 \subsection{Positions} \label{positions}
 There are five basic positions in Dota 2.\cite{ Balaji:Dota}
-\paragraph{Position 1: Carry/Safe-lane} (Medusa, Anti-mage, Juggernaut, etc)
 
-The first position is the hero called the carry-player or safe lane. His responsibility is to get gold and experience. At the beginning of a battle, he is weaker than a support player in fights. To get farm and levels, he usually needs to be protected by all the other heroes on your team for the first 10 minutes. It usually takes the first ten minutes for him to get levels. At this time, the protection of other heroes is essential for a safe lane. When a carry player reaches a farm and levels, he can alone kill 2 opponents.
-\paragraph{Position 2: Mid-lane} (Invoker, Templar Assassin, Shadow Fiend, etc)
+\textbf{Position 1: Carry/Safe-lane} (Medusa, Anti-mage, Juggernaut)
 
+The first position is the hero called the carry-player or safe lane. 
+His responsibility is to get gold and experience. At the beginning of a battle, he is weaker than a support player in fights. To get farm and levels, he usually needs to be protected by all the other heroes on your team for the first 10 minutes. It usually takes the first ten minutes for him to get levels. At this time, the protection of other heroes is essential for a safe lane. When a carry player reaches a farm and levels, he can alone kill 2 opponents.
+
+\textbf{Position 2: Mid-lane}      (Invoker, Templar Assassin, Shadow Fiend)
 Midlane is a player who fights alone. In this way, he gains experience the fastest among other heroes. A character can amplify farms and get early kills on the side lanes.
-\paragraph{Position 3: Off-lane} (Axe, Tidehunter, Underlord, etc)
 
+\textbf{Position 3: Off-lane }(Axe, Tidehunter, Underlord)
 The off-lane chases the enemy carry player and expands the map for other team members.
-\paragraph{Position 4: Roaming Support}(Spirit Breaker, Earth Spirit, Mirana, etc)
 
+\textbf{Position 4: Roaming Support    } (Spirit Breaker, Earth Spirit)                            
 The main task of the roaming support is to make rotations to other lanes and to try to make kills. This kind of hero can not go to the forest. Meanwhile, roaming support is able to affect various routes.
-\paragraph{Position 5: Hard Support} (Crystal Maiden, Lion, Witch Doctor, etc)
 
+\textbf{Position 5: Hard Support}       (Crystal Maiden, Lion, Witch Doctor)            
 Hard Support provides the security of a carry hero against the off-lane and roaming support.
-
 \subsection{Heroes} \label{heroes}
 Dota 2 has 123 heroes. The newest of them is Primal Beast. Most of these heroes have prototypes from the first Defense of the Ancients. However, some heroes, such as Monkey King and Mars, are entirely new heroes not found in the original version of Dota 2.
 Heroes have one of three primary attributes: Strength, Agility, and Intelligence. Every point of a hero's primary attribute increases that hero's attack damage.
@@ -127,11 +135,8 @@ Heroes have one of three primary attributes: Strength, Agility, and Intelligence
   \includegraphics[width=0.8\textwidth]{heroes123094.png}
   \label{fig:heroes}
  \end{figure}  
-
-
 \section{The reasons why Dota 2 is still popular} \label{the reasons why Dota 2 is still popular}
 There are several reasons why Dota 2 is still popular among players. First of all, the game proposes a huge variety of heroes, items, and upgrades that helps to capture the attention of users. Secondly, Dota 2 is mainly free. In this way, it is available for a majority of people. Thirdly, championships and various competitions are organized every year. Therefore, every player has an opportunity to experience eSports by being an eSports player.\cite{Reasons:DOTA}
-
 \section{Conclusion} \label{conclusion} % prípadne iný variant názvu
 Currently, the popularity of Dota 2 is growing considerably among players. The development process of the action game consists of several phases, commencing with the Aeon of Strife fan mod and ending with the official game release in 2013. Furthermore, the main reason for users’ interest in Dota 2 is its wide range of features, such as a variety of main modes and heroes for five positions. 
 
@@ -139,6 +144,21 @@ Currently, the popularity of Dota 2 is growing considerably among players. The d
 
 %\acknowledgement{Ak niekomu chcete poďakovať\ldots}
 
+\paragraph{Technology and people}
+Technology is a powerful tool that may meet people's needs. One of them is to organize group work to achieve tangible results. As a result, Agile appeared as a framework for project realization. There are four core values of Agile. The first one is that individuals and interactions are over processes and tools. Next, working software is over comprehensive documentation. The third principle is that customer collaboration is over contract negotiation. The last notion is that responding to change is over following a plan.
+
+Moreover, one of the most popular methodologies of software development is Scrum. It is based on six principles. The first idea is that empirical process control helps to learn through experimentation. Furthermore, the second principle is that self-organization is crucial for better team buy-in and shared ownership. The next notion is that project delivery is a shared value-creation process with teams working and interacting. The fourth statement is to deliver maximum business value from the beginning of the project to the end of it. The following principle is that time is a limiting constraint in Scrum and is used to manage project planning and execution. The last idea is based on iterative development that helps to create programs effectively.
+\paragraph{History of Informatics}
+The history of Informatics consists of several phases.
+
+To begin with, the earliest known tool in computation was the abacus, which was created in Sumer. Next, the Antikythera mechanism was designed to calculate astronomical positions. This device is believed to be an early mechanical analog computer. Later, Muslim engineers invented programmable machines, such as Al-Jazari's programmable castle clock, which is considered to be the first programmable analog computer. In 1702, Gottfried Wilhelm Leibniz developed the binary numeral system. Beginning in the 1810s, Babbage designed a calculator to compute numbers up to 8 decimal points long.
+
+Furthermore, the mathematical foundations of modern computer science were laid by Kurt Gödel in 1931. In 1936 Alan Turing and Alonzo Church introduced the formalization of an algorithm, with limits and a "purely mechanical" model for computing. Claude Shannon published A Mathematical Theory of Communication in 1948, which applied probability theory to the problem of how to best encode the information that will be transmitted. 
+\paragraph{Sustainability and ethics}
+It is essential to provide sustainable development which means that resources can be restored or even before theirs through exhaustion they would be replaced with alternative sources. To achieve this kind of development, a person should personally internalize the belief, persuade others to take over responsibility for one's actions, use resources more efficiently, recycle, turn off what he can and use what cannot be turned off.
+
+There is a Software Engineering Code of Ethics that has eight principles. The first principle claimed that software engineers shall act consistently in the public interest. The second one said that programmers ought to act in a manner that is in the best interests of their clients and employer and consistent with the public interest. The third principle is based on the idea that developrs shall ensure that their products and related modifications meet the highest professional standards possible. The fourth notion is that coders ought to maintain integrity and independence in their professional judgment. The fifth claim is that software engineering managers and leaders shall subscribe to and promote an ethical approach to the management of software development and maintenance. The sixth principle is that pragrammers shall advance the integrity and reputation of the profession consistent with the public interest. The seventh idea is that coders shall be fair to and supportive of their colleagues. The last notice is that software engineers shall participate in lifelong learning
+regarding the practice of their profession and shall promote an ethical approach to the practice of the profession.
 
 % týmto sa generuje zoznam literatúry z obsahu súboru literatura.bib podľa toho, na čo sa v článku odkazujete
 \bibliography{literatura}
